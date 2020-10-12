@@ -1,0 +1,66 @@
+.navbar {
+    height: 40px;
+    background-color: coral; /* background-* properties - please explore, also background shorthand property */
+}
+
+.nav, .list-unstyled {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    padding: 5px 10px;
+    color: white;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rgb( 255, 255, 255 );
+    background-color: darkgray;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+}
+
+.text-center {
+    text-align: center !important; /* set this property to this value at any cost */
+}
+
+.my-3 {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.col {
+    flex-basis: 30%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
