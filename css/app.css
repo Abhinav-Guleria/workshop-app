@@ -1,6 +1,6 @@
 .navbar {
     height: 40px;
-    background-color: navy; /* background-* properties - please explore, also background shorthand property */
+    background-color:coral;
 }
 
 .nav, .list-unstyled {
