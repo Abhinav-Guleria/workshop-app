@@ -1,6 +1,6 @@
 .navbar {
     height: 40px;
-    background-color: coral;
+    background-color: navy; /* background-* properties - please explore, also background shorthand property */
 }
 
 .nav, .list-unstyled {
@@ -65,4 +65,22 @@
     display: flex;
     flex-direction: row;
     align-items: stretch;
+}
+
+.message {
+    display: none;
+    padding: 1em 2em;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.message-info {
+    border-color: navy;
+    background-color: lightblue;
+}
+
+.message-error {
+    border-color: crimson;
+    background-color: lightpink;
 }
