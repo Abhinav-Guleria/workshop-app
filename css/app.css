@@ -17,12 +17,12 @@
     padding: 5px 10px;
     color: white;
     line-height: 40px;
-    text-decoration: none;
+    text-decoration:none;
 }
 
 .nav a:hover {
-    color: rgb( 255, 255, 255 );
-    background-color: darkgray;
+    color: blue ( 255, 255, 255 );
+    background-color: darkseagreen;
 }
 
 .container {
@@ -76,11 +76,11 @@
 }
 
 .message-info {
-    border-color: navy;
-    background-color: lightblue;
+    border-color:rgb(4, 189, 4);
+    background-color: lightcyan;
 }
 
 .message-error {
-    border-color: crimson;
+    border-color: red;
     background-color: lightpink;
 }
