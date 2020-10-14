@@ -1,6 +1,6 @@
 .navbar {
     height: 40px;
-    background-color:coral;
+    background-color: coral;
 }
 
 .nav, .list-unstyled {
@@ -17,12 +17,12 @@
     padding: 5px 10px;
     color: white;
     line-height: 40px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .nav a:hover {
-    color: blue ( 255, 255, 255 );
-    background-color: darkseagreen;
+    color: rgb( 255, 255, 255 );
+    background-color: darkgray;
 }
 
 .container {
@@ -36,7 +36,7 @@
 
 .card {
     padding: 20px;
-    border: 1px solid darkgray;
+    border: 1px solid lightcyan;
     border-radius: 4px;
 }
 
@@ -59,12 +59,24 @@
 }
 
 .col {
-    flex-basis: 30%; /* like width for flexbox */
+    flex-basis: 100%; /* like width for flexbox */
     
     /* tis is also made a flexbox parent to have the card stretch to full height using align-items */
     display: flex;
     flex-direction: row;
     align-items: stretch;
+}
+
+@media all and ( min-width: 640px ) {
+    .col {
+        flex-basis: 47.5%;
+    }
+}
+
+@media all and ( min-width: 1024px ) {
+    .col {
+        flex-basis: 30%;
+    }
 }
 
 .message {
@@ -76,11 +88,11 @@
 }
 
 .message-info {
-    border-color:rgb(4, 189, 4);
-    background-color: lightcyan;
+    border-color: forestgreen;
+    background-color: lightblue;
 }
 
 .message-error {
-    border-color: red;
+    border-color: crimson;
     background-color: lightpink;
 }

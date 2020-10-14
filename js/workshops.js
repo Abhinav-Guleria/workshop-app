@@ -55,7 +55,7 @@
     }
 
     function init() {
-        showFetchMessage( 'Loading workshops', 'info' );
+        showFetchMessage( 'Loading workshops..', 'info' );
 
         fetchWorkshops() // Ajax request (asynchronous)
             .then( workshops => {
