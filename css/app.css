@@ -22,7 +22,7 @@
 
 .nav a:hover {
     color: rgb( 255, 255, 255 );
-    background-color: darkgray;
+    background-color: lightgreen;
 }
 
 .container {
@@ -36,7 +36,7 @@
 
 .card {
     padding: 20px;
-    border: 1px solid lightcyan;
+    border: 1px solid darkorange;
     border-radius: 4px;
 }
 
